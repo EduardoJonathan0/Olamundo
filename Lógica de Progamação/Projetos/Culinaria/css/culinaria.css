@@ -1,0 +1,116 @@
+/* corpo */
+body{
+	padding:0;
+	margin:0 auto;
+	background:#cccccc;
+}
+/* textos */
+h1{
+	background-image:url("fundo.jpg");
+	background-repeat:no-repeat;	
+	background-position:center;
+	background-attachment:fixed;
+	font-size:50px;
+	font-family:arial black;
+	text-align:center;
+}
+/* menu */
+#menu ul {
+    padding:0px;
+    margin:0px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+#menu ul li {
+	display: inline; 
+	}
+	
+/* cabeçalho */
+#geral{
+	padding:0;
+	margin:0 auto;
+	width:900px;
+	height:auto;
+}
+
+#cabecalho{
+	width:900px;
+	height:150px;
+	float:left;
+	background:#f5deb3;
+}
+
+#conteudo{
+	width:900px;
+	height:auto;
+	float:left;
+}
+
+/* imagens */
+#img_float{
+	float:left;
+	margin:0;
+	height:150px;
+}
+
+.imgban{
+  	position: relative;
+  	left: 30%;
+	width:50%;
+	height:230px;
+}
+.receita{
+	width:897px;
+	height:auto;
+	float:left;
+	background:#b22222;
+	border:2px solid #ff0000;
+}
+
+.quadro{
+	
+width:10%;
+border:1px;	
+}
+
+.fotos{
+	width:30%;
+	border-radius: 25px;
+}
+
+/* footer */
+
+#rodape{
+	position: relative;
+    bottom: 0;
+	width:900px;
+	height:60px;
+	float:left;
+	background:#cc9977;
+	font-size:20px;
+	text-align:center;
+}
+
+a:link{
+	color:black;
+	text-decoration:none;
+}
+	
+a:hover{
+	color:red;
+}
+
+.voltar{
+	width:50px;
+	height:50px;
+}
+
+.titulo{
+	color:#ffffff;
+	font-size:45px;
+}
+
+.descricao{
+	color:#ffff00;
+	font-size:30px;
+}

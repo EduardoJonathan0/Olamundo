@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let cartao_limite = parseInt(3000);
+        let compra = prompt("Qual valor da compra ao todo?");
+        let rest = cartao_limite - compra;
+        if (compra > cartao_limite){
+            alert("Acima do limite.Não pode fazer esta compra.");
+        }else if(compra <= cartao_limite){
+            alert(`Compra efetuada você ainda tem R$ ${rest} de limite no seu cartão!!`);
+        }
+    </script>
+</body>
+</html>

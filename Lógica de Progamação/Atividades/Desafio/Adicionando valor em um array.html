@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Digite Algo" id="Primeira"><button type="button" id="First" onclick="FirstLine()">Clique para primeira linha</button><br>
+    <p>Primeira Linha: <normal id="vai"></normal></p>
+    <input type="text" placeholder="Digita mais uma" id="Segundo"><button type="button" id="Second" onclick="SecondLine()">Clique para segunda linha</button>
+    <p>Segunda Linha: <normal id="vem"></normal></p>
+
+    <script>
+        var Line = new Array[""];
+            function FirstLine() {
+                Line = document.getElementById("Primeira").value; 
+                document.getElementById("vai").innerHTML = Line;
+        }
+        var Line2 = new Array[""];
+            function SecondLine(){
+                Line2 = document.getElementById("Segundo").value;
+                document.getElementById("vem").innerHTML = Line2;
+        }
+    </script>
+</body>
+</html>

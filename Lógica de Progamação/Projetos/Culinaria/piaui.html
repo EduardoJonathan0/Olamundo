@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Piauí</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/culinaria.css"/>
+	<script type="text/javascript">
+    	function changeImage(a) {
+        document.getElementById("img").src=a;
+    	}
+	</script>
+</head>
+	<body>
+		<div id="geral">
+			<div id="cabecalho">
+				<img id="img_float" src="img/sabor.png"><h1>Culinária Piaui</h1>
+			</div>
+<nav id="menu">
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Maria Isabel</a></li>
+        <li><a href="#">Panelada</a></li>
+		<li><a href="#">Baião de Dois</a></li>
+        <li><a href="#">Paçoca</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</nav>
+	<div id="conteudo">
+
+	<div>
+    	<img id="img" class=imgban src="img/fundo.jpg">
+	</div>
+
+	<div id="thumb_img">
+		<img class=quadro src='img/mariaisabel.jpg'  onclick='changeImage("img/mariaisabel.jpg");'>
+		<img class=quadro src='img/panelada.jpg'  onclick='changeImage("img/panelada.jpg");'>
+		<img class=quadro src='img/paçoca.jpg'  onclick='changeImage("img/paçoca.jpg");'>
+	</div>
+		<div class="receita">
+				<a href="mariaisabel.html"><h2 class="titulo">Maria Isabel</h2></a>
+				<p class="descricao"></p>
+				<center>
+					<a href="mariaisabel.html"><img class="fotos" src="img/mariaisabel.jpg"/></a>
+				</center>
+				</div>
+			
+		<div class="receita">
+		<a href="panelada.html"><h2 class="titulo">Panelada</h2></a>
+		<p class="descricao"></p>
+		<center>
+			<a href="panelada.html"><img class="fotos" src="img/panelada.jpg"/></a>
+		</center>
+		</div>
+		
+		<div class="receita">
+		<a href="Baiaodedois.html"><h2 class="titulo">Baião de dois</h2></a>
+		<p class="descricao"></p>
+		<center>
+			<a href="baiao.html"><img class="fotos" src="img/baiao.jpg"/></a>
+		</center>
+		</div>
+		
+		<div class="receita">
+		<a href="Paçoca.html"><h2 class="titulo">Paçoca</h2></a>
+		<p class="descricao"></p>
+		<center>
+			<a href="paçoca.html"><img class="fotos" src="img/paçoca.jpg"/></a>
+		</center>
+		
+		</div>
+		
+		</div>
+		
+	  <div id="rodape">
+		<h3>Copyright2021.MeuPiaui</h3>		
+	  </div>
+	 </div>
+	</body>
+</html>

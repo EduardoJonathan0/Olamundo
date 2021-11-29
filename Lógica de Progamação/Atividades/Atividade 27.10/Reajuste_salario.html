@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var salario = Number(prompt('Insira seu salario atual?'));
+        var xsalario;
+        var porcent;
+        if (salario <= 1100){
+            xsalario = salario * 1.2;
+            alert = parseInt(`Seu salario é de: R$${salario}`);
+            porcent = "20%";
+            alert(`Seu salario recebeu um aumento de: ${porcent}`);
+            alert(`Seu novo salario está reajustado para: ${xsalario}`);
+        }
+        else if (salario < 1500){
+            xsalario = parseInt(salario * 1.15);
+            alert(`Seu salario é de: R$${salario}`);
+            porcent = "15%";
+            alert(`Seu salario recebeu um aumento de: ${porcent}`);
+            alert(`Seu novo salario está reajustado para: R$${xsalario}`);
+        }
+        else if (salario <= 2000){
+            xsalario = parseInt(salario * 1.1);
+            alert(`Seu salario é de: R$${salario}`);
+            porcent = "10%";
+            alert(`Seu salario recebeu um aumento de: ${porcent}`);
+            alert(`Seu novo salario está reajustado para: R$${xsalario}`);
+        }
+        else if (salario >= 2001){
+            xsalario = parseInt(salario * 1.5);
+            alert(`Seu salario é de: R$${salario}`);
+            porcent = "5%";
+            alert(`Seu salario recebeu um aumento de: ${porcent}`);
+            alert(`Seu novo salario está reajustado para: R$${xsalario}`);
+        }
+    </script>
+</body>
+</html>

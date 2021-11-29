@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="number"><button type="button" id="real" onclick="converter_real()">Real</button>
+
+    <p>Você selecionou: <normal id="Moeda"></normal></p>
+    <p>O valor convertido de Moeda para Dolar é: <normal id="Dolar"></normal></p>
+
+    <hr>
+
+    <input type="number" id="Number"><button type="button" id="Dolar" onclick="Converter_Dolar()">Dolar</button>
+
+    <p>Você selecionou: <normal id="dolar"></normal></p>
+    <p>O valor convertido Dolar para Moeda é: <normal id="moeda"></normal></p>
+
+    <script>
+        function converter_real(){
+            var Real = document.getElementById("number").value;
+            document.getElementById("Moeda").innerHTML = Real;
+            var conv_real = parseFloat(Real / 5.54);
+            document.getElementById("Dolar").innerHTML = conv_real; 
+        }
+        function Converter_Dolar(){
+            var Dolar = document.getElementById("Number").value;
+            document.getElementById("dolar").innerHTML = Dolar;
+            var conv_dolar = parseFloat(Dolar / 0.18);
+            document.getElementById("moeda").innerHTML = conv_dolar;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Base_Retangulo = parseInt(prompt('Insira o valor da Base do Retângulo: '));
+        var Altura_Retang = parseInt(prompt("Insira o valor da altura do Retângulo: "));
+        var Base_square = parseInt(prompt('Insira o valor da Base do Quadrado: '));
+        var base_quadrado = parseInt(prompt('Insira o valor da Base do Quadrado: '));
+        var Area_quadrado = Base_square * base_quadrado;
+        var Area_retangulo = Base_Retangulo * Altura_Retang;
+
+        if (Area_quadrado > Area_retangulo) {
+            alert(`A area do retângulo é de: ${Area_retangulo} e a area do quadrado é de: ${Area_quadrado}`);
+            alert('A area do quadrado é maior que a area do retângulo');
+        }else{
+            alert(`A area do retângulo é de: ${Area_retangulo} e a area do quadrado é de: ${Area_quadrado}`);
+            alert('A rea do retângulo é maior que a do quadrado');
+        }
+    </script>
+</body>
+</html>
